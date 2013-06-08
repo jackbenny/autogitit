@@ -11,7 +11,7 @@ First of all change the variable GITDIR in autogitit.sh to point to the director
 Next add an entry for autogitit.sh in your crontab, for example to run every five minutes. Below is an example of how to do it and what how the line will look like.
 
 	$ crontab -e
-	*/10 * * * * /home/user/autogitit.sh
+	*/5 * * * * /home/user/autogitit.sh
 
 If you want to initalize a directory for use with autogitit you can either do this by your self with a "git init" or by running the script with the --init option.
 
